@@ -1,4 +1,4 @@
-def f(n):
+def fu(n):
     if n==0:
         print(0)
         return
@@ -10,10 +10,10 @@ def f(n):
         s=t
         t=f+s
     if abs(t-n)>abs(s-n):
-        print(s)
+            print(s)
     elif abs(t-n)==abs(s-n):
-        print(s,t)
+            print(s,t)
     else:
-        print(t)
+           print(t)
 n=int(input())
-f(n)
+fu(n)
