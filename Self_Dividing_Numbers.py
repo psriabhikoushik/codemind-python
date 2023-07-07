@@ -9,6 +9,6 @@ for i in range(a,b+1):
             c+=1
         elif t%r!=0:
             c+=1
-        i=i//10
+        i//=10
     if c==0:
         print(t,end=' ')
