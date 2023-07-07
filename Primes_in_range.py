@@ -1,4 +1,4 @@
-def is_prime(n):
+def us(n):
     if n==1:
         return False
     for i in range(2,int(n**0.5)+1):
@@ -8,8 +8,8 @@ def is_prime(n):
 
 d=int(input())
 m=int(input())
-pc=0
-for i  in range(d,m+1):
-    if is_prime(i)==True:
-        pc+=1
-print(pc)        
+p=0
+for i in range(d,m+1):
+    if us(i)==True:
+        p+=1
+print(p)        
