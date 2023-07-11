@@ -1,10 +1,10 @@
 n=int(input())
+s=0
 p=1
-s=se=0
+rev=0
 while n>0:
-    r=n%10
-    s+=r
-    p*=r
+    c=n%10
+    s+=c
+    p*=c
     n=n//10
-se=p-s
-print(se)
+print(p-s)    
