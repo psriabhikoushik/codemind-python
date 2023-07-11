@@ -1,11 +1,15 @@
 n=int(input())
-t=abs(n)
-r=0
-while t>0:
-    r1=t%10
-    r=r*10+r1
-    t=t//10
+f=abs(n)
+s=0
 if n>0:
-    print(r)
+    while n>0:
+       r=n%10
+       s=s*10+r
+       n=n//10
+    print(s)
 else:
-    print(-(r))
+    while f>0:
+       r=f%10
+       s=s*10+r
+       f=f//10
+    print(-(s))
