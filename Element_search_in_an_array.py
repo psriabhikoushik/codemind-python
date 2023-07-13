@@ -1,8 +1,8 @@
 n=int(input())
 a=list(map(int,input().split()))
-s=int(input())
+b=int(input())
 for i in range(n):
-    if a[i]==s:
+    if b in a:
         print(True)
         break
 else:
